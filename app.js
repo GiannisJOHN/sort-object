@@ -26,7 +26,7 @@ var keysAndValuesOfUnsortedObject = Object.entries(unsortedObject).sort((a, b) =
 })
 console.log(keysAndValuesOfUnsortedObject)
 
-//array of shorted objects
+//array of sorted objects
 var sortedArrayOfObjects = keysAndValuesOfUnsortedObject.map( (each) => {
     var nu = new Object()
     
